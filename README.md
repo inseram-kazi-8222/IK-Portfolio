@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# IK Kazi Portfolio 🚀
 
-## Getting Started
+> **Personal portfolio of Inseramuddin Kazi** — Digital Architect & Developer.  
+> A high-end, brutalist-luxury portfolio showcasing real-world web & software projects.
 
-First, run the development server:
+---
+
+## 🌐 Live Projects Featured
+
+| Project | Category | URL |
+|---------|----------|-----|
+| **IMS** | Inventory Management System | [imsportal.3ftech.in](https://imsportal.3ftech.in) |
+| **Agile Engineering Consultants** | Web Design / Consultancy | [www.agileeng.net](https://www.agileeng.net) |
+| **Swaraj Car Point** | Software / Automotive | [swaraj-car.azhka.in](https://swaraj-car.azhka.in) |
+
+---
+
+## ✨ Features
+
+- ⚡ **Brutalist Luxury Design** — bold typography meets dark elegance
+- 🎞️ **Framer Motion Animations** — smooth entrance & hover animations
+- 🖼️ **Hero Section** — full editorial image layout with glass panel
+- 📁 **Selected Works Grid** — staggered 3-column project cards with real images & live links
+- 🔗 **Clickable Project Cards** — open live websites directly from portfolio
+- 📱 **Fully Responsive** — works on mobile, tablet & desktop
+- 🌗 **Dark Theme** — premium dark color palette throughout
+- 🔤 **Custom Fonts** — Anton (display) + Plus Jakarta Sans (body)
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Usage |
+|------------|-------|
+| **Next.js 16** (App Router) | Framework |
+| **Tailwind CSS v4** | Styling |
+| **Framer Motion** | Animations |
+| **Lucide React** | Icons |
+| **Google Fonts** | Typography (Anton, Plus Jakarta Sans) |
+
+---
+
+## 🚀 Getting Started
 
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📁 Project Structure
 
-## Learn More
+```
+IK KAZI PORTFOLIO/
+├── app/
+│   ├── layout.js       # Root layout with metadata & fonts
+│   ├── page.js         # Main portfolio page
+│   ├── globals.css     # Global styles & design tokens
+│   └── icon.png        # Site favicon
+├── components/
+│   ├── Navbar.js       # Navigation bar
+│   ├── Background.js   # Animated background
+│   └── WorkCard.js     # Project card component
+└── public/
+    ├── ik kazi img.png         # Hero section photo
+    ├── ik-logo.png             # Brand logo
+    ├── IMS.png                 # IMS project image
+    ├── agile portrait.jpeg     # AEC project image
+    └── swaraj portrait.jpeg    # Swaraj Car Point image
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 👤 Author
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Inseramuddin Kazi**  
+Digital Architect & Developer  
+📧 Available for bespoke digital contracts
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+© 2025 Inseramuddin Kazi. All rights reserved.
