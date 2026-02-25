@@ -157,7 +157,7 @@ export default function Home() {
           </div>
 
           {/* Cards Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-x-10 sm:gap-y-16 md:gap-x-12 md:gap-y-24 lg:gap-y-32">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-x-10 sm:gap-y-16 md:gap-x-12 md:gap-y-24 lg:gap-y-32">
             <div className="sm:mt-0 lg:mt-24">
               <WorkCard
                 title="IMS"
@@ -176,13 +176,22 @@ export default function Home() {
                 href="www.agileeng.net"
               />
             </div>
-            <div className="sm:col-span-2 lg:col-span-1 lg:mt-48">
+            <div className="lg:mt-48">
               <WorkCard
                 title="Swaraj Car Point"
                 category="Software / Automotive"
                 year="2025–26"
                 imageSrc="/swaraj portrait.jpeg"
                 href="swaraj-car.azhka.in"
+              />
+            </div>
+            <div className="lg:mt-12">
+              <WorkCard
+                title="Azhka Technologies"
+                category="Education & IT Services"
+                year="2025"
+                imageSrc="/azhka.in .jpeg"
+                href="www.azhka.in"
               />
             </div>
           </div>
