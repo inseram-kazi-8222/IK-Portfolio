@@ -189,8 +189,56 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ── ABOUT ────────────────────────────────────────────────── */}
+      <section id="about" className="px-6 md:px-8 py-20 md:py-32 bg-primary relative overflow-hidden">
+        <div className="container mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center">
+            <div>
+              <motion.span
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                className="font-jakarta text-[10px] uppercase tracking-[0.5em] text-sage mb-3 sm:mb-4 block"
+              >
+                About Me
+              </motion.span>
+              <h2 className="font-anton text-[10vw] sm:text-[8vw] md:text-[6vw] lg:text-[4vw] leading-none uppercase text-white mb-6">
+                Crafting Digital <br />
+                <span className="italic text-sage">Experiences.</span>
+              </h2>
+              <p className="font-jakarta text-taupe text-sm sm:text-base leading-relaxed mb-6">
+                I'm Inseramuddin Kazi, a passionate full-stack developer specializing in building exceptional digital experiences. With expertise in modern web technologies, I create scalable, performant, and user-centric applications.
+              </p>
+              <p className="font-jakarta text-taupe text-sm sm:text-base leading-relaxed">
+                My approach combines clean code architecture with intuitive design, ensuring every project delivers both technical excellence and visual appeal.
+              </p>
+            </div>
+            <div className="glass-panel p-8 sm:p-12 rounded-sm space-y-6">
+              <div className="grid grid-cols-2 gap-6">
+                <div>
+                  <span className="font-anton text-4xl text-sage">3+</span>
+                  <p className="font-jakarta text-xs text-taupe uppercase tracking-widest mt-2">Years Experience</p>
+                </div>
+                <div>
+                  <span className="font-anton text-4xl text-sage">15+</span>
+                  <p className="font-jakarta text-xs text-taupe uppercase tracking-widest mt-2">Projects Completed</p>
+                </div>
+                <div>
+                  <span className="font-anton text-4xl text-sage">10+</span>
+                  <p className="font-jakarta text-xs text-taupe uppercase tracking-widest mt-2">Happy Clients</p>
+                </div>
+                <div>
+                  <span className="font-anton text-4xl text-sage">100%</span>
+                  <p className="font-jakarta text-xs text-taupe uppercase tracking-widest mt-2">Dedication</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ── EXPERTISE ────────────────────────────────────────────── */}
-      <section className="bg-charcoal px-6 md:px-8 py-20 md:py-40 border-t border-white/5 relative z-10">
+      <section id="expertise" className="bg-charcoal px-6 md:px-8 py-20 md:py-40 border-t border-white/5 relative z-10">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 md:gap-16 lg:gap-24 items-start">
 
@@ -217,7 +265,7 @@ export default function Home() {
             </div>
 
             {/* Right: Contact CTA */}
-            <div className="glass-panel p-8 sm:p-12 rounded-sm space-y-6 sm:space-y-8 md:mt-0 lg:mt-20">
+            <div id="contact" className="glass-panel p-8 sm:p-12 rounded-sm space-y-6 sm:space-y-8 md:mt-0 lg:mt-20">
               <h3 className="font-anton text-2xl sm:text-3xl text-white uppercase">
                 Start a <br />project?
               </h3>
