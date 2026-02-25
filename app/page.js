@@ -87,11 +87,12 @@ export default function Home() {
             variants={item}
             className="block lg:hidden mt-6 w-full max-w-[280px] mx-auto sm:mx-0"
           >
-            <div className="relative w-full aspect-[3/4] glass-panel rounded-sm overflow-hidden border-white/5">
+            <div className="relative w-full h-[370px] glass-panel rounded-sm overflow-hidden border-white/5">
               <Image
                 src="/ik kazi img.png"
                 alt="Inseramuddin Kazi"
                 fill
+                sizes="(max-width: 1024px) 280px, 0px"
                 priority
                 className="object-cover object-top opacity-90"
                 style={{ objectPosition: 'center top' }}
