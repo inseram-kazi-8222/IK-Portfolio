@@ -11,7 +11,7 @@ export default function Navbar() {
     });
 
     const [menuOpen, setMenuOpen] = useState(false);
-    const navLinks = ['Selected Works', 'About', 'Expertise', 'Contact'];
+    const navLinks = ['Selected Works', 'About', 'Skills', 'Expertise', 'Contact'];
 
     return (
         <>
@@ -97,11 +97,15 @@ export default function Navbar() {
                         transition={{ delay: 0.4 }}
                         className="mt-6 flex gap-6"
                     >
-                        {['Twitter', 'LinkedIn', 'Github'].map(s => (
-                            <a key={s} href="#" className="font-jakarta text-[10px] uppercase tracking-widest text-white/40 hover:text-sage transition-colors">
-                                {s}
-                            </a>
-                        ))}
+                        <a href="https://www.linkedin.com/in/inseram-kazi-145261370/" target="_blank" rel="noopener noreferrer" className="font-jakarta text-[10px] uppercase tracking-widest text-white/40 hover:text-sage transition-colors">
+                            LinkedIn
+                        </a>
+                        <a href="https://github.com/inseram-kazi-8222" target="_blank" rel="noopener noreferrer" className="font-jakarta text-[10px] uppercase tracking-widest text-white/40 hover:text-sage transition-colors">
+                            Github
+                        </a>
+                        <a href="https://www.instagram.com/ik_kazi_8222" target="_blank" rel="noopener noreferrer" className="font-jakarta text-[10px] uppercase tracking-widest text-white/40 hover:text-sage transition-colors">
+                            Instagram
+                        </a>
                     </motion.div>
                 </motion.div>
             )}
