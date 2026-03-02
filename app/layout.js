@@ -43,7 +43,7 @@ export const metadata = {
     siteName: "IK Kazi Portfolio",
     images: [
       {
-        url: "/ik kazi img.png",
+        url: "/ik-kazi-img.png",
         width: 1200,
         height: 630,
         alt: "Inseramuddin Kazi - Full-Stack Web Developer",
@@ -54,7 +54,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Inseramuddin Kazi | Full-Stack Web Developer",
     description: "Full-Stack Web Developer specializing in React, Next.js, Node.js. Building scalable, performant digital experiences.",
-    images: ["/ik kazi img.png"],
+    images: ["/ik-kazi-img.png"],
     creator: "@ik_kazi",
   },
   verification: {
@@ -73,7 +73,7 @@ export default function RootLayout({ children }) {
     alternateName: "IK Kazi",
     description: "Full-Stack Web Developer specializing in React, Next.js, Node.js, and modern web technologies.",
     url: "https://ikportfolio.azhka.in",
-    image: "/ik kazi img.png",
+    image: "/ik-kazi-img.png",
     jobTitle: "Full-Stack Web Developer",
     knowsAbout: ["React", "Next.js", "Node.js", "JavaScript", "MongoDB", "Tailwind CSS", "Express", "REST APIs", "Web Development"],
     sameAs: [

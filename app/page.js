@@ -68,7 +68,7 @@ export default function Home() {
             <div className="w-full h-full glass-panel relative rounded-sm overflow-hidden border-white/5">
               <div className="absolute inset-0 grayscale hover:grayscale-0 transition-all duration-1000">
                 <Image
-                  src="/ik kazi img.png"
+                  src="/ik-kazi-img.png"
                   alt="Inseramuddin Kazi"
                   fill
                   priority
@@ -89,7 +89,7 @@ export default function Home() {
           >
             <div className="relative w-full h-[370px] glass-panel rounded-sm overflow-hidden border-white/5">
               <Image
-                src="/ik kazi img.png"
+                src="/ik-kazi-img.png"
                 alt="Inseramuddin Kazi"
                 fill
                 sizes="(max-width: 1024px) 280px, 0px"
