@@ -172,7 +172,7 @@ export default function Home() {
                 title="Agile Engineering"
                 category="Web Design / Consultancy"
                 year="2025"
-                imageSrc="/agile portrait.jpeg"
+                imageSrc="/agile-portrait.jpeg"
                 href="www.agileeng.net"
               />
             </div>
@@ -181,7 +181,7 @@ export default function Home() {
                 title="Swaraj Car Point"
                 category="Software / Automotive"
                 year="2025–26"
-                imageSrc="/swaraj portrait.jpeg"
+                imageSrc="/swaraj-portrait.jpeg"
                 href="swaraj-car.azhka.in"
               />
             </div>
@@ -190,7 +190,7 @@ export default function Home() {
                 title="Azhka Technologies"
                 category="Education & IT Services"
                 year="2025"
-                imageSrc="/azhka.in .jpeg"
+                imageSrc="/azhka-in.jpeg"
                 href="www.azhka.in"
               />
             </div>
@@ -216,7 +216,7 @@ export default function Home() {
                 <span className="italic text-sage">Experiences.</span>
               </h2>
               <p className="font-jakarta text-taupe text-sm sm:text-base leading-relaxed mb-6">
-                I'm Inseramuddin Kazi, a passionate full-stack developer specializing in building exceptional digital experiences. With expertise in modern web technologies, I create scalable, performant, and user-centric applications.
+                I'm Inseramuddin Kazi, a passionate full-stack developer currently working at <span className="text-sage font-semibold">Azhka Technologies</span>. I specialize in building exceptional digital experiences with expertise in modern web technologies, creating scalable, performant, and user-centric applications.
               </p>
               <p className="font-jakarta text-taupe text-sm sm:text-base leading-relaxed">
                 My approach combines clean code architecture with intuitive design, ensuring every project delivers both technical excellence and visual appeal.
